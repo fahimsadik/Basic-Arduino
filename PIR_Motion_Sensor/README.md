@@ -3,7 +3,7 @@ An Arduino project that uses a Passive Infrared (PIR) sensor to detect motion an
 
 This project uses a PIR (Passive Infrared) sensor to detect motion and displays the status on an I2C Liquid Crystal Display (LCD). When motion is detected, a message is shown on the LCD and printed to the serial monitor. When no motion is detected, a different message is displayed.
 
-Components Needed
+Components Needed:
 
 Arduino board (e.g., Uno, Nano)
 
@@ -15,7 +15,7 @@ Jumper wires
 
 
 
-Circuit Connections
+Circuit Connections:
 
 PIR Sensor OUT pin -> Arduino Digital Pin 4 
 
@@ -29,14 +29,14 @@ I2C LCD GND -> Arduino GND
 
 
 
-Libraries Used
+Libraries Used:
 
 Wire.h (Standard Arduino library for I2C communication) 
 
 LiquidCrystal_I2C.h (for the I2C LCD) 
 
 
-Code Description
+Code Description:
 
 The code initializes the I2C LCD and sets the PIR sensor pin as an input in the setup() function. 
 
