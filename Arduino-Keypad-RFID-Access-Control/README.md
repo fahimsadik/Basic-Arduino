@@ -1,17 +1,16 @@
 Keypad and RFID Access Control System
+
 This project is an access control system that uses a combination of an MFRC522 RFID reader and a 4x4 keypad. It allows access by either scanning a specific RFID card or entering a correct 4-digit PIN. The system controls a relay that can be used to open a door or activate a device.
 
 Components Needed
+
 Arduino board (e.g., Uno)
 
 MFRC522 RFID Reader 
 
 4x4 Keypad 
 
-
-
 16x2 I2C LCD Display 
-
 
 Relay Module 
 
