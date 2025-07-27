@@ -53,16 +53,6 @@ Keypad.h (for the keypad)
 The code handles two primary modes of authentication:
 
 
-RFID Authentication: The handleRFID() function continuously checks for a new card. If a card with the ID 
+RFID Authentication: The handleRFID() function continuously checks for a new card. If a card with the ID "b37855f7" is scanned, it displays "Authorized" on the LCD, activates the relay, and then deactivates it after a delay. Otherwise, it displays "Access denied".
 
-"b37855f7" is scanned, it displays "Authorized" on the LCD, activates the relay, and then deactivates it after a delay. Otherwise, it displays "Access denied".
-
-
-
-PIN Authentication: The handleKeypad() function manages PIN entry. Pressing the 
-
-
-'D' key enters PIN mode. Users can then enter a 4-digit PIN, which is displayed as asterisks on the LCD. If the entered PIN matches the correct PIN (
-
-
-"1111") and the 'D' key is pressed again, access is granted, and the relay is activated. An incorrect PIN results in a "Access denied" message.
+PIN Authentication: The handleKeypad() function manages PIN entry. Pressing the 'D' key enters PIN mode. Users can then enter a 4-digit PIN, which is displayed as asterisks on the LCD. If the entered PIN matches the correct PIN ("1111") and the 'D' key is pressed again, access is granted, and the relay is activated. An incorrect PIN results in a "Access denied" message.
